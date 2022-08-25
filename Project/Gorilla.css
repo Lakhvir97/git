@@ -1,0 +1,51 @@
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url();
+}
+
+.Header {
+  position: fixed;
+  width: 1582px;
+  height: 3979px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(48, 165, 202, 0.58),
+      rgba(48, 165, 202, 0.58)
+    ),
+    url(Rectangle.png);
+  background-blend-mode: overlay, normal;
+}
+/* Header */
+.Logo {
+  position: absolute;
+  width: 81px;
+  height: 79px;
+  left: calc(50% - 81px / 2 - 676px);
+  top: 23px;
+
+  background: url(Logo.png);
+}
+.List {
+  display: flex;
+  color: white;
+}
+.List ul {
+  display: flex;
+  align-items: center;
+  margin-left: 33vw;
+  margin-top: 6vh;
+}
+
+.List ul li {
+  list-style-type: none;
+  width: 98px;
+  height: 44px;
+  padding: 10px;
+}
